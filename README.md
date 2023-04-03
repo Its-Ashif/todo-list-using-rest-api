@@ -1,13 +1,18 @@
-# todo_app
+## Introduction
 
-A flutter project on TODO list.
+Todo app is a flutter application that enable you to input tasks for better management for your day to day life.
+You can utilize this app to improve your time more efficiently.
 
-## Getting Started
+## Features
+- 📖 Open source and free: Anyone can use, modify it without cost.
+- 📱 Mobile friendly: Designed to be accessible and usable on mobile devices.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+##Screenshots
+![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092490939987140639/Screenshot_1680540183.png)
+![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092490915341402112/Screenshot_1680540032.png)
+![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092491003132387429/Screenshot_1680540191.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+
 
