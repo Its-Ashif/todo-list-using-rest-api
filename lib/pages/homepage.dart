@@ -39,34 +39,40 @@ class _HomePageState extends State<HomePage> {
       body: RefreshIndicator(
         onRefresh: fetchTodo,
         child: ListView.builder(
+            padding: EdgeInsets.all(12),
             itemCount: items.length,
             itemBuilder: (context, index) {
               final item = items[index] as Map;
               final id = item['_id'] as String;
-              return ListTile(
-                leading: CircleAvatar(child: Text("${index + 1}")),
-                title: Text(item['title']),
-                subtitle: Text(item['description']),
-                trailing: PopupMenuButton(onSelected: (value) {
-                  if (value == 'Edit') {
-                    //Edit here
-                  } else if (value == 'Delete') {
-                    deleteById(id);
-                  }
-                }, itemBuilder: (context) {
-                  return [
-                    PopupMenuItem(
-                      child: Text('Edit'),
-                      value: 'Edit',
-                    ),
-                    PopupMenuItem(
-                      child: Text(
-                        'Delete',
-                      ),
-                      value: 'Delete',
-                    )
-                  ];
-                }),
+              return Card(
+                child: Container(
+                  margin: EdgeInsets.all(12),
+                  child: ListTile(
+                    leading: CircleAvatar(child: Text("${index + 1}")),
+                    title: Text(item['title']),
+                    subtitle: Text(item['description']),
+                    trailing: PopupMenuButton(onSelected: (value) {
+                      if (value == 'Edit') {
+                        //Edit here
+                      } else if (value == 'Delete') {
+                        deleteById(id);
+                      }
+                    }, itemBuilder: (context) {
+                      return [
+                        PopupMenuItem(
+                          child: Text('Edit'),
+                          value: 'Edit',
+                        ),
+                        PopupMenuItem(
+                          child: Text(
+                            'Delete',
+                          ),
+                          value: 'Delete',
+                        )
+                      ];
+                    }),
+                  ),
+                ),
               );
             }),
       ),
