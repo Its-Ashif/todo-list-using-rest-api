@@ -1,6 +1,6 @@
 ## Introduction
 
-Todo app is a flutter application that enable you to input tasks for better management for your day to day life.
+Todo app is a flutter application that enable you to input tasks for better management for your day to day life.<br>
 You can utilize this app to improve your time more efficiently.
 
 ## Features
