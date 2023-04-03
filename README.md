@@ -9,9 +9,9 @@ You can utilize this app to improve your time more efficiently.
 
 
 ##Screenshots
-![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092490939987140639/Screenshot_1680540183.png)
-![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092490915341402112/Screenshot_1680540032.png)
-![alt text](https://cdn.discordapp.com/attachments/1087031595438968853/1092491003132387429/Screenshot_1680540191.png)
+![](https://cdn.discordapp.com/attachments/1087031595438968853/1092490939987140639/Screenshot_1680540183.png|width=200|height=400)
+![](https://cdn.discordapp.com/attachments/1087031595438968853/1092490915341402112/Screenshot_1680540032.png|width=200|height=400)
+![](https://cdn.discordapp.com/attachments/1087031595438968853/1092491003132387429/Screenshot_1680540191.png|width=200|height=400)
 
 
 
